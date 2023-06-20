@@ -1,0 +1,36 @@
+.header {
+  background: rgba(#e2e2e2, .1);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 90px;
+    @media screen and (max-width: 767px){
+     min-height: 70px;
+    }
+  }
+
+  .n-space {
+    margin-left: auto;
+  }
+
+  .n-h1 {
+    margin: 0;
+    text-transform: capitalize;
+
+    @media screen and (max-width: 767px){
+      font-size: 18px;
+    }
+  }
+  .n-divider{
+    margin: 0;
+  }
+  .n-avatar{
+    margin-right: 10px;
+    margin-top: 1px;
+  }
+}
+
